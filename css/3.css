@@ -1,0 +1,186 @@
+
+.header{
+padding: 16px 0;
+	background-color: #191F3A
+}
+.logo a{
+font-size: 36px;
+text-decoration: none;
+color:#E3A127;
+}
+.nav ul{
+list-style: none;
+}
+.nav li{
+margin: 0 16px;
+}
+.nav li a{
+text-decoration: none;
+color:#E3A127
+}
+.nav li a:hover{
+opacity: 0.8
+}
+/*Header*/
+.banner{
+background: url( "../bar-1713610_1920.jpg");
+background-position:center;
+padding: 200px 0;
+color: white;
+animation: Inout 7s infinite;
+}
+.text-center banner{
+}
+@keyframes Inout{
+	0%,100%{
+		transform: scale(1)
+	}
+	50%{
+		transform: scale(1.1)
+	}
+}
+.banner h1{
+font-weight: 400;
+letter-spacing: 4px;
+word-spacing: 15px;
+}
+.banner p{
+margin: 10px 0 40px;
+font-size: 18px
+	
+}
+.btnn{
+background: transparent;
+color:white;
+text-decoration: none;
+padding: 5px 20px;
+	border: 2px solid #E3A127 ;
+	border-radius: 50px;
+}
+.btnn:hover{
+opacity: .8;
+background: #E3A127;
+}
+.btn{
+background: transparent;
+color:white;
+text-decoration: none;
+padding: 15px 30px;
+	border: 2px solid #E3A127 ;
+	border-radius: 50px;
+}
+.btn:hover{
+opacity: .8;
+background: #E3A127;
+}
+/*banner*/
+.service{
+padding: 80px;
+	background-color:#0C1638;   
+}
+.main h1{
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px
+}
+.service h1{
+margin-bottom: 40px;
+	color: #E3A127
+}
+.feature{
+overflow: hidden;
+height: 280px;
+}
+.content{
+padding: 32px 0;
+}
+.content p {
+margin: 16px 0;
+	color: aliceblue
+}
+.content h2 {
+	color: #E3A127
+}
+.content span {
+	color: white
+}
+.icon a{
+margin-left: 7px;
+margin-top: 2px;
+color: white;
+font-size: 25px;	
+}
+
+.service h1{
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px
+}
+.section{
+	width:100%;
+	text-align: center;
+}
+.row{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: center;
+	
+}
+.featurer{
+	background-position:center;
+}
+.service{
+	justify-content: center;
+}
+
+.contentt{
+	background-color:white
+}
+.ex{
+	width: 100%;
+	height: 100vh;
+	background-image: url( "../jason-leung-poI7DelFiVA-unsplash.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-content: center
+}
+.exx{
+	width: 50%;
+	padding: 50px;
+	color: white ;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.exx h1{
+	font-size: 7vmin;
+	
+}
+.exx p{
+	color: beige;
+}
+.exx .ctn{
+	margin-top: 70px;
+}
+.nen{
+	width: 300px;
+	height: 300px;
+
+	position: relative;
+}
+.vien{
+	width: 250px;
+	height: 250px;
+	border: 6px solid #E8A051
+}
+.hinh{
+	width: 250px;
+	height: 250px;
+	background: aqua;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background:url("../Rain - 122300.mp4");
+	background-position:center;
+}
